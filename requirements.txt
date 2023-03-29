@@ -1,3 +1,2 @@
 ops >= 1.5.0
 ./package/
-tenacity
