@@ -18,8 +18,11 @@ from ops.charm import CharmBase
 from ops.main import main
 from ops.model import ActiveStatus, BlockedStatus, WaitingStatus
 
+from package import foo
 # Log messages can be retrieved using juju debug-log
 logger = logging.getLogger(__name__)
+
+logger.error(foo.MESSAGE)
 
 VALID_LOG_LEVELS = ["info", "debug", "warning", "error", "critical"]
 
