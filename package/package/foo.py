@@ -1,1 +1,1 @@
-MESSAGE = "Hello, world!"
+MESSAGE = "Hello!"
