@@ -18,6 +18,9 @@ from ops.charm import CharmBase
 from ops.main import main
 from ops.model import ActiveStatus, BlockedStatus, WaitingStatus
 
+import pdb
+pdb.set_trace()
+
 # Log messages can be retrieved using juju debug-log
 logger = logging.getLogger(__name__)
 
